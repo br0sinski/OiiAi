@@ -1,0 +1,26 @@
+{
+  "name": "oiiai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/br0sinski/OiiAi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/br0sinski/OiiAi/issues"
+  },
+  "homepage": "https://github.com/br0sinski/OiiAi#readme",
+  "devDependencies": {
+    "electron": "^34.1.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "howler": "^2.2.4"
+  }
+}
