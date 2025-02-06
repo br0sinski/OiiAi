@@ -75,6 +75,7 @@ body::-webkit-scrollbar {
     opacity: 0.2;
     transition: opacity 0.1s ease;
     background-color: rgba(240, 248, 255, 0.04);
+    color: white;
     border: 4px;
     cursor: pointer;
     padding: 0.125rem;

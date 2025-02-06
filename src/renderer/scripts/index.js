@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     gifButton.addEventListener('click', () => {
         staticImage.classList.add('hidden'); 
         gifOverlay.classList.remove('hidden'); 
+
+        const audio = new Audio('../assets/sound.mp3');
+        audio.play().catch(err => console.error('Audio play error:', err));
         
         setTimeout(() => {
             gifOverlay.classList.add('hidden'); 
