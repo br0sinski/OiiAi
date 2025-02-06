@@ -11,6 +11,7 @@ const createWindow = () => {
         transparent: true,
         frame: false,
         resizable: false,
+        alwaysOnTop: true,
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,

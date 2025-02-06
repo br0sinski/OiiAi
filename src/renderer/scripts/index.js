@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             gifOverlay.classList.add('hidden'); 
             staticImage.classList.remove('hidden'); 
-        }, 3000);
+        }, 1500);
     });
 
     closeButton.addEventListener('click', () => {
