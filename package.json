@@ -15,12 +15,21 @@
   },
   "homepage": "https://github.com/br0sinski/OiiAi#readme",
   "devDependencies": {
-    "electron": "^34.1.0"
+    "electron": "^34.1.0",
+    "electron-builder": "^25.1.8"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "dependencies": {
     "howler": "^2.2.4"
-  }
+  },
+  "build": {
+        "appId": "com.basti.oiiai",
+        "mac": {
+            "target": "dmg",
+            "category": "public.app-category.utilities"
+        }
+    }
 }
